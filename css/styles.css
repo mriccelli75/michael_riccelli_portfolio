@@ -18,6 +18,9 @@ p {
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--header-font);
 }
+a {
+    text-decoration: none;
+}
 .nav-bar {
     padding: 36px 0;
 }
@@ -28,7 +31,7 @@ h1,h2,h3,h4,h5,h6 {
 .nav-link {
     font-family: var(--header-font);
     font-weight: 500;
-    transition: ;
+    
 }
 .nav-link.active {
  font-weight: 700;
